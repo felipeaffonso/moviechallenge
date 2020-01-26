@@ -23,6 +23,10 @@ Embora não fosse um requisito, foi implementada a paginação na busca de filme
 
 Para uma maior flexibilidade e segurança, utilizei os dois produtos da Hashicorp, o `Consul` para deixar as propriedades que por ventura possam necessitar de alterações, enfim, facilitando e deixando externa as propriedades não sensíveis que a aplicação necessita, e o por fim, as informações sensíveis ficam no `Vault`, protegidas e criptografadas.
 
+O setup do `Consul`, `Vault` e do `MongoDB` foi feito através do arquivo `docker-compose`. No caso do Consul, há uma pasta com o setup inicial das propriedades: `data/consul/`, lá o arquivo `data.json` define as chaves e valores.
+
+Numa aplicação real, a pipeline de deploy já pode ler os arquivos de setup e recriar as propriedades dependendo do ambiente que for executada.
+
 ## Informações Técnicas
 
 O Software foi construído utilizando a seguinte stack:
