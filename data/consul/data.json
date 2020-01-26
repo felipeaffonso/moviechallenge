@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fza/moviechallenge/",
+    "flags": 0,
+    "value": ""
+  },
+  {
+    "key": "fza/moviechallenge/spring.profiles.active",
+    "flags": 0,
+    "value": "ZGV2"
+  },
+  {
+    "key": "fza/moviechallenge/server.port",
+    "flags": 0,
+    "value": "ODA4MA=="
+  },
+  {
+    "key": "fza/moviechallenge/partner.endpoint",
+    "flags": 0,
+    "value": "aHR0cDovL2xvY2FsaG9zdDo4MDgx"
+  }
+
+]
